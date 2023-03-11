@@ -3,11 +3,11 @@ public class Main {
         BmiService service = new BmiService();
         double x = 1.87;
         int y = 98;
-        int mybmi = service.bmi(x, y);
+        int myBmi = service.bmi(x, y);
         System.out.println("Параметры роста и веса:");
         System.out.println((x) + " метра");
         System.out.println((y) + " кг");
         System.out.println("Индекс массы тела:");
-        System.out.println(mybmi);
+        System.out.println(myBmi);
     }
 }
